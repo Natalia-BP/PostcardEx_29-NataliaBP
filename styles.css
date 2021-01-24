@@ -1,0 +1,88 @@
+html {
+    background-color: black;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    background-color: white;
+    box-sizing: border-box;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    max-width: 40rem;
+}
+
+h1 {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5rem;
+    font-weight: 300;
+}
+
+.in_txt {
+font-family: 'Montserrat', sans-serif;
+font-weight: 500;
+}
+
+.in_txt {
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 0.5rem;
+}
+
+::placeholder {color: grey;
+    opacity: 0.5;
+}
+
+.bod {
+    overflow: hidden;
+}
+
+.botn {
+    padding: 2rem;
+}
+
+#btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+/* .bod {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+} */
+
+.imag img {
+float: right;
+width: 60px;
+height: 60px;
+}
+
+.txt {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.inputs {
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+    text-align: end;
+}
